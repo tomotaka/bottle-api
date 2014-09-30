@@ -1,0 +1,17 @@
+*.swp
+
+build/
+dist/
+
+*.egg-info
+*.egg
+*.sublime-*
+*.pickle
+*.pyc
+*.cpp
+*.so
+*.zip
+
+*.swp
+
+data/
