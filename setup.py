@@ -4,7 +4,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='bottle-api',
-    version='0.0.2',
+    version='0.0.3',
     description='useful decorator for building WebAPI on Bottle web framework development',
     author='Tomotaka Ito',
     author_email='tomotaka.ito@gmail.com',
