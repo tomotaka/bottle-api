@@ -5,7 +5,7 @@ from setuptools import setup, find_packages
 setup(
     name='bottle-api',
     version='0.0.2',
-    description='Semantic Web Challenge 2014',
+    description='useful decorator for building WebAPI on Bottle web framework development',
     author='Tomotaka Ito',
     author_email='tomotaka.ito@gmail.com',
     url='https://github.com/tomotaka/bottle-api',
