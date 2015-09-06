@@ -41,7 +41,7 @@ see this sample web app:
     app.route('/devide', ['GET'], devide)
     
 
-if you access ``/device?a=1&b=1``, it will return ``200 OK`` response with body:
+if you access ``/devide?a=1&b=1``, it will return ``200 OK`` response with body:
 
 ::
 
@@ -49,7 +49,7 @@ if you access ``/device?a=1&b=1``, it will return ``200 OK`` response with body:
 
 with Content-Type ``application/json``
 
-but when you access ``device?a=1&b=0``, you will get ``400 BAD REQUEST`` response with body:
+but when you access ``devide?a=1&b=0``, you will get ``400 BAD REQUEST`` response with body:
 
 ::
 
@@ -57,7 +57,7 @@ but when you access ``device?a=1&b=0``, you will get ``400 BAD REQUEST`` respons
 
 
 If you want to use JSONP, you can specify callback function name with parameter(``j`` by default)
-So accessing ``/device?a=4&b=2&j=my_callback`` will result:
+So accessing ``/devide?a=4&b=2&j=my_callback`` will result:
 
 ::
 
